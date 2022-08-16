@@ -67,7 +67,6 @@ export const setStyle = (id) => {
     database.orderBuilder.styleId = id
 }
 
-
 export const addCustomOrder = () => {
     // Copy the current state of user choices
     const newOrder = {...database.orderBuilder}
